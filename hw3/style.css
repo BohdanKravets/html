@@ -1,0 +1,53 @@
+.red{
+    background: red;
+}
+.blueviolet{
+    background: blueviolet;
+}
+.blue{
+    background: blue;
+}
+.antiquewhite{
+    background: antiquewhite;
+}
+.brown{
+    background: brown;
+}
+.aqua{
+    background: aqua;
+}
+.chartrexx{
+    background: chartreuse;
+}
+.cornflowerblue{
+    background: cornflowerblue;
+}
+.a{
+    width: 100%;
+    height: 100px;
+}
+ .b{
+     width: 75%;
+     height: 200px;
+ }
+
+.c{
+    width: 25%;
+    height: 200px;
+}
+
+.d{
+    width: 100%;
+    height: 100px;
+
+}
+.e{
+width: 33.3%;
+    height: 100px;
+}
+
+
+
+.flex{
+    display: flex;
+}
