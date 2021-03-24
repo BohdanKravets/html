@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prosto One', cursive;
+}
+
+body {
+    background-image: url("../images/background.png");
+
+
+}
+
+.logo {
+    width: 108px;
+    height: 84px;
+    margin-left: 88px;
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    height: 154px;
+    border-bottom: 10px #F6CD3A solid;
+    justify-content: space-between;
+
+}
+
+.nav-bar nav {
+    display: flex;
+    column-gap: 65px;
+    margin-right: 40px;
+
+}
+
+.nav_item a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav_item {
+    width: 72px;
+    height: 28px;
+    background-color: #F6CD3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17px;
+}
+
+.first_screen {
+    margin-top: 170px;
+    margin-bottom: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+ .first_screen button {
+    background: #F6CD3A;
+    width: 455px;
+    height: 105px;
+    border-radius: 55px;
+    color: white;
+     margin-top: 100px;
+     border: none;
+     font-weight: normal;
+     font-size: 50px;
+     line-height: 62px;
+     text-transform: uppercase;
+
+
+}
+ .first_screen h1{
+     font-style: normal;
+     font-weight: normal;
+     font-size: 112px;
+     line-height: 138px;
+     text-align: center;
+     color: #FFFFFF;
+     text-transform: uppercase;
+ }
+ .first_screen h2{
+     font-style: normal;
+     font-weight: normal;
+     font-size: 64px;
+     line-height: 79px;
+     text-align: center;
+     color: #FFFFFF;
+ }
